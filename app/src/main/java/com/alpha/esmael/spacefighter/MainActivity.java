@@ -28,15 +28,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
 
-
-
-
-
-
         //setting the orientation to landscape
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
-
 
         //getting the button
         buttonPlay = (ImageButton) findViewById(R.id.buttonPlay);
